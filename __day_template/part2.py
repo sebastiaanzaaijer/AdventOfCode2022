@@ -1,5 +1,5 @@
 def solve_puzzle(puzzle_input):
-    return list(sum(map(int,block.splitlines())) for block in puzzle_input.split("\n\n"))
+    return puzzle_input
 
 if __name__ == "__main__":
     import os
